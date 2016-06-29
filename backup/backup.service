@@ -1,0 +1,13 @@
+# /usr/lib/systemd/system/backup.service
+
+[Unit]
+Description=Stew's backup routine
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/backup.sh
+
+[Install]
+WantedBy=multi-user.target
+
+
