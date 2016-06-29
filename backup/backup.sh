@@ -1,4 +1,4 @@
 #!/bin/bash
-rsync /media /backup
+rsync -a --delete /media /backup
 
 
